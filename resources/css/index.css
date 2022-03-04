@@ -14,6 +14,7 @@ header {
     position: fixed;
     height: 69px;
     width: 100%;
+    z-index: 5;
     border-bottom: 1px solid seashell;
 }
 .logo {
@@ -36,7 +37,22 @@ nav ul li {
 a {
     text-decoration: underline;
 }
-.mission {
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
     position: relative;
-    top: 60px;
+    top: 71px;
+}
+.mission {
+    background-image: url("../mission-background.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mission div {
+    width: 1200px;
 }
